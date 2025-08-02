@@ -296,12 +296,11 @@ export default function Index() {
           className="absolute bottom-8 right-8 w-12 h-12 opacity-5 animate-float"
           style={{animationDelay: '0.8s'}}
         />
-        {/* Add your background image for the prizes section */}
+        {/* Prizes section background image */}
         <img
           src="/coinpackfinal.png"
           alt="Prizes Background"
           className="absolute inset-0 w-full h-full object-cover opacity-20 pointer-events-none"
-          style={{zIndex: 0}}
         />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -498,3 +497,4 @@ export default function Index() {
     </div>
   );
 }
+
